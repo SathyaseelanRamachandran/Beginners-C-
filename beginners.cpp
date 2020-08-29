@@ -1,11 +1,12 @@
 /*
+//first demo
 #include <iostream>
 using namespace std;
 int main(){
 	cout<<"Hello world!!!"<<endl;
 	return 0;
 }
-
+//second question
 #include <iostream>
 using namespace std;
 int main(){
@@ -17,6 +18,8 @@ int main(){
 	cin>>b;
 	cout<<"The sum of the numbers you entered is:"<<a+b<<endl;
 }
+
+//third question
 #include <iostream>
 using namespace std;
 int main(){
@@ -31,7 +34,7 @@ int main(){
 	}
 	return 0;
 }
-
+//forth question
 #include <iostream>
 using namespace std;
 int main(){
@@ -42,7 +45,7 @@ int main(){
 	}
 	while (a<10);
 }
-
+//fifth question
 #include <iostream>
 using namespace std;
 int main(){

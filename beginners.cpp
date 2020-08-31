@@ -9,14 +9,14 @@ int main(){
 #include <iostream>
 using namespace std;
 int main(){
-	int a;
-	cout<<"Enter first number:";
-	cin>>a;
-	int b;
-	cout<<"Enter second number:";
-	cin>>b;
-	cout<<"The sum of the numbers you entered is:"<<a+b<<endl;
-}
+	int a,b, total=0; //good method to initialise variables
+	cout<<"Please enter first digit and second digit: "<<endl;
+	cin>>a>>b;
+	total=a+b;
+	cout<<a<<"+"<<b<<"total is:"<<total<<endl;
+	return 0;
+	}
+	
 #include <iostream>
 using namespace std;
 int main(){

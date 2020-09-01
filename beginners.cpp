@@ -37,8 +37,8 @@ int main(){
 #include<iostream>
 using namespace std;
 int main(){
-       //talking about break and continue statement
-       
+       //discussion about break and continue statement
+     
        for(int i=0; i<=9; i++){
        cout<<i;
        if(i==5){ //will display 0,1,2,3,4,5 only

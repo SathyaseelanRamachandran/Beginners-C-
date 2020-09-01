@@ -32,6 +32,29 @@ int main(){
 	return 0;
 }
 
+
+
+#include<iostream>
+using namespace std;
+int main(){
+       //talking about break and continue statement
+       
+       for(int i=0; i<=9; i++){
+       cout<<i;
+       if(i==5){ //will display 0,1,2,3,4,5 only
+       break;
+       }
+       }
+       for(int j=0; j<=9; j++){  //will display 0,1,2,3,4,6,7,8,9,10
+       cout<<j;
+       if(j==5){
+       continue;
+       }
+       }
+}
+return 0;
+}
+
 #include <iostream>
 using namespace std;
 int main(){

@@ -63,10 +63,13 @@ int main(){
 	do{
 		a++;
 		cout<<a<<endl;
+                cout<<"Statement repeat for nine times!"<<endl;
 	}
 	while (a<10);
-}
 
+
+
+=======
 #include<iostream>
 using namespace std;
 int main(){

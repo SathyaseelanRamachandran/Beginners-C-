@@ -66,6 +66,43 @@ int main(){
 	while (a<10);
 }
 
+#include<iostream>
+using namespace std;
+int main(){
+int a=0;
+do{
+
+cout<<"hello, this is do while loop<<endl; //repeat the statement for ten times until loop condition becomes false
+a++;
+while(a<=10){
+cout<<"Program ends here!"<<endl;
+return 0;
+}
+
+//call by reference function
+// function definition to swap the values.
+void swap(int &x, int &y) {
+   int temp;
+   temp = x; /* save the value at address x */
+   x = y;    /* put y into x */
+   y = temp; /* put x into y */
+  
+   return;
+}
+
+
+//call by value function
+// function definition to swap the values.
+void swap(int x, int y) {
+   int temp;
+
+   temp = x; /* save the value of x */
+   x = y;    /* put y into x */
+   y = temp; /* put x into y */
+  
+   return;
+}
+
 #include <iostream>
 using namespace std;
 int main(){
